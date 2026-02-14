@@ -136,7 +136,21 @@ VITE_LAMBDA_URL=FunctionURL
 Lambda Function > Runtime settings > Edit > Select Runtime = Node.js 24.x > Write Handler=lambda.handler
 
 
-### If you want to Run on EC2 Machine:
+## If you want to Run on EC2 Machine:
+
+### Install NodeJS
+### Download and install nvm:
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+### in lieu of restarting the shell
+    \. "$HOME/.nvm/nvm.sh"
+### Download and install Node.js:
+    nvm install 24
+### Verify the Node.js version:
+    node -v # Should print "v24.13.1".
+### Verify npm version:
+    npm -v # Should print "11.8.0".
+
+## Clone Repo and Insall:
 ```bash 
 ssh -i your-key.pem ec2-user@EC2_PUBLIC_IP
 git clone <your-repo-url>
