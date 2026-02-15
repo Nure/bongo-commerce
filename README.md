@@ -45,7 +45,7 @@ BongoCommerce/frontend/
 
 ---
 
-## Step 1 — Clone the Repository to EC2 machine
+## Step 1 — Clone the Repository
 
 ```bash
 git clone <your-github-repo-url>
