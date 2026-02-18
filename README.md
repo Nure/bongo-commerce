@@ -91,6 +91,7 @@ Enable On-Demand capacity for simplicity.
 ### Go to your backend directory 
     
     cd backend
+    npm install
 
 ## Make a zip file with node_modules, lambda.js, package.json
 
